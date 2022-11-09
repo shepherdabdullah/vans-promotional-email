@@ -8,6 +8,45 @@
         width: 100%;
         align-content: center;
       }
+      .fine-print {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px !important;
+        color: #838383;
+        text-align: center;
+      }
+      /* Media Queries for Responsive Header Section(Logo and Menu) */
+      @media only screen and (max-width: 500px) {
+        .non-responsive thead, .non-responsive tr, .non-responsive th, 
+        .non-responsive td {
+          display: inline !important;
+          height: auto !important;
+          max-width: 100% !important;
+          width: 100% !important;
+          font-size: 18px !important;
+        }
+        .responsive thead {
+          display: none;
+        }
+        .responsive tr, .responsive th,
+        .responsive td, .responsive img {
+          display: block;
+          height: auto !important;
+          max-width: 600px !important;
+          width: 100% !important;
+          font-size: 20px !important;
+          align-content: center !important;
+          max-height: inherit !important;
+          overflow: visible !important;
+          align-content: center !important;
+        }
+      }
+      /* Dark Mode */
+      @media (prefers-color-scheme: dark) {
+        .dark-mode {
+          background: #ffffff !important;
+        }
+      }
+
     </style>
     <title>Vans</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,18 +85,18 @@
                 </table>
                 <!--End Preheader-->
                 <!--Start Content Container-->
-                <table bgcolor="#ffffff" width="600" border="0" cellpadding="0" cellspacing="0" align="center">
+                <table class="dark-mode" bgcolor="#ffffff" width="600" border="0" cellpadding="0" cellspacing="0" align="center">
                   <tr>
-                    <td bgcolor="#ffffff" style="background-color:#ffffff;">
+                    <td class="dark-mode" bgcolor="#ffffff" style="background-color:#ffffff;">
                       <!--Begin Header-->
-                      <table bgcolor="#ffffff" class="" cellspacing="0" cellpadding="0" border="0" align="center"
+                      <table class="responsive dark-mode" bgcolor="#ffffff" class="" cellspacing="0" cellpadding="0" border="0" align="center"
                       width="600" height="93" style="text-align:center;vertical-align:middle;background:#ffffff;" valign="middle">
                         <tr>
                           <!--Begin Logo-->
                           <td align="center" valign="middle" bgcolor="#ffffff">
                             <table bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center" height="93" style="text-align:center;vertical-align:middle;background:#ffffff;" valign="middle">
                               <tr>
-                                <td width="170" height="93" style="padding-top: 5px;" bgcolor="#ffffff">
+                                <td class="dark-mode" width="170" height="93" style="padding-top: 5px;" bgcolor="#ffffff">
                                   <a href="https://click.e.vans.com/?qs=f75fd75beda7b1c7342fe638f38b337c908bf866d68c55d5e5455ccb0331f0907111571dc99a74cc377cb2cd833c14c19f1361befb3a8014">
                                     <img width="170" height="83" border="0" src="https://image.e.vans.com/lib/fe3a11717164057d771775/m/1/7a6adba7-dd3a-4e87-bfd5-e8cde02b0a58.jpg" alt="Vans">
                                   </a>
@@ -67,26 +106,26 @@
                           </td>
                           <!--End Logo-->
                           <!--Begin Nav-->
-                          <td width="100%" bgcolor="#ffffff">
-                            <table class="" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center" style="display:inline-block;margin:0;float:none;text-align:center;vertical-align:middle;background:#ffffff;" valign="middle">
+                          <td class="dark-mode" width="100%" bgcolor="#ffffff">
+                            <table class="non-responsive" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center" style="display:inline-block;margin:0;float:none;text-align:center;vertical-align:middle;background:#ffffff;" valign="middle">
                               <tr>
-                                <td class="" width="85" align="center" valign="middle" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-transform:uppercase; ; display:inline;">
+                                <td class="non-responsive" width="85" align="center" valign="middle" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-transform:uppercase; ; display:inline;">
                                   <a bgcolor="#ffffff" title="Mens" style="text-decoration:none;color:#000000" href="https://click.e.vans.com/?qs=f75fd75beda7b1c75b28d08d10dc0ce74dc08bd98cc3aa2890cc7b25b2affc6502941f3f93bfbf114cfc678a53f2c248288e11b0ad3c5aea">
                                     MENS&nbsp;&nbsp;|</a>
                                 </td>
-                                <td class="" width="85" align="center" valign="middle" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-transform:uppercase; ; display:inline;">
+                                <td class="non-responsive" width="85" align="center" valign="middle" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-transform:uppercase; ; display:inline;">
                                   <a bgcolor="#ffffff" title="Womens" style="text-decoration:none;color:#000000" href="https://click.e.vans.com/?qs=f75fd75beda7b1c7fb0e8e0908bc68ee51a810358a20cfe2ab4c600ffae0e4fbaf453abe6c3ebf321dda5743687693519f0cc6297addb649">
                                     &nbsp;WOMENS&nbsp;&nbsp;|</a>
                                 </td>
-                                <td class="" width="85" align="center" valign="middle" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-transform:uppercase; ; display:inline;">
+                                <td class="non-responsive" width="85" align="center" valign="middle" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-transform:uppercase; ; display:inline;">
                                   <a bgcolor="#ffffff" title="Kids" style="text-decoration:none;color:#000000" href="https://click.e.vans.com/?qs=f75fd75beda7b1c78a2543c648fa14439a6db0e92bec71a9818f96534d963ab5bc406e6ae03d583a1a1ed339e44027df47491e2844b9b9cb">
                                     &nbsp;KIDS&nbsp;&nbsp;|</a>
                                 </td>
-                                <td class="" width="85" align="center" valign="middle" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-transform:uppercase; ; display:inline;">
+                                <td class="non-responsive" width="85" align="center" valign="middle" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-transform:uppercase; ; display:inline;">
                                   <a bgcolor="#ffffff" title="Family" style="text-decoration:none;color:#000000" href="https://click.e.vans.com/?qs=f75fd75beda7b1c7160c28495c5b088d2159740a5ca5576132a7fd2b29915ad6f1a83e649cc354810fb8a2c717c9249e270fe6972221c401">
                                     &nbsp;Family&nbsp;&nbsp;|</a>
                                 </td>
-                                <td class="" width="85" align="center" valign="middle" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-transform:uppercase; ; display:inline;">
+                                <td class="non-responsive" width="85" align="center" valign="middle" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:16px;font-weight:700;color:#ffffff;text-transform:uppercase; ; display:inline;">
                                   <a bgcolor="#ffffff" title="Customs" style="text-decoration:none;color:#000000" href="https://click.e.vans.com/?qs=f75fd75beda7b1c77ca2cbf4aef97877cc515868e95dcda67e4bd09496e1d8d702b1991544a2b5282b7d5c99323a8e0b6024c5e8ec5d4562">
                                     &nbsp;Customs</a>
                                 </td>
@@ -98,12 +137,12 @@
                       </table>
                       <!--End Header-->
                       <!--Begin Promo/Content-->
-                      <table class="" width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
                         <tr>
-                          <td class="">
-                            <table class="" cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%;">
+                          <td>
+                            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%;">
                               <tr>
-                                <td class="">
+                                <td>
                                   <table width="100%" cellspacing="0" cellpadding="0" role="presentation">
                                     <tr>
                                       <td align="center">
@@ -168,7 +207,7 @@
             <tr>
               <td>
                 <!--Begin Socials-->
-                <table width="100%" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff">
+                <table class="social-media" width="100%" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff">
                   <tr>
                     <td align="center" valign="middle" style="padding: 10px 0;" bgcolor="#ffffff">
                       <table width="196" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff">
@@ -227,12 +266,12 @@
                 </table>
                 <!--End CAN-SPAM-->
                 <!--Begin Company Info-->
-                <table width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff">
+                <table class="fine-print" width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff">
                   <tr>
                     <td>
-                      <table width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff">
+                      <table class="fine-print" width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff">
                         <tr>
-                          <td width="100%" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:11px;color:#838383;text-align:center;padding:0px;">
+                          <td class="fine-print" width="100%" bgcolor="#ffffff" style="font-family:arial, sans-serif;font-size:11px;color:#838383;text-align:center;padding:0px;">
                             <br>
                             This Email was sent by:
                             <br>
