@@ -17,6 +17,20 @@ Find A Store:
 http://image.exct.net/lib/fe6615707c6204787615/m/1/87370417-fe2d-4836-8fcb-fa7de033764a.jpg
 
 Socials -
+Original Social Icons from Real Vans Promo Reference Email do not render properly in web view or GitHub Pages
+So instead I use PNG that I hosted on IMGBB
+Twitter:
+https://i.ibb.co/fNZLDnB/twitter.png
+FaceBook:
+https://i.ibb.co/ygr4cH5/facebook.png
+Pinterest:
+https://i.ibb.co/vPvTvHS/pinterest.png
+Spotify:
+https://i.ibb.co/4djQfHy/spotify.png
+Instagram:
+https://i.ibb.co/VY3z1HB/instagram.png
+
+Orignal Social Icons Just In Case -
 Twitter:
 http://image.email.vans.com/lib/fe6615707c6204787615/m/4/96b9b67c-c21b-4e3c-b982-974b874bc756.jpg
 FaceBook:
