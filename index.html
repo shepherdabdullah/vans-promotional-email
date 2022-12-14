@@ -41,6 +41,34 @@
           align-content: center !important;
         }
       }
+      /* Desktop and Mobile differences Media Queries */
+      @media only screen and (max-width: 460px) {
+        div[id=desktop] {
+          display: none !important;
+          width: 0px !important;
+          height: 0px !important;
+          overflow: hidden !important;
+        }
+        div[id=mobile] {
+          display: none !important;
+          width: 100% !important;
+          height: 0px !important;
+          max-height: inherit !important;
+          overflow: visible !important;
+        }
+        *[class=noMobile] {
+          display: none !important;
+          overflow: hidden !important;
+          height: 0px !important;
+        }
+        *[class=showMobile] {
+          display: block !important;
+          height: auto !important;
+          max-height: inherit !important;
+          overflow: visible !important;
+          align-content: center !important;
+        }
+      }
       /* Dark Mode */
       @media (prefers-color-scheme: dark) {
         .dark-mode {
