@@ -41,3 +41,36 @@ Spotify:
 http://image.email.vans.com/lib/fe6615707c6204787615/m/4/eb90085d-fbe2-4d0f-a424-d9413e8f63e0.jpg
 Instagram:
 http://image.email.vans.com/lib/fe6615707c6204787615/m/4/4fe004dc-2a3a-43b9-b570-fb39416cd31d.jpg
+
+
+unused media queries
+      /* Desktop and Mobile differences Media Queries */
+      @media only screen and (max-width: 460px) {
+        div[id=desktop] {
+          display: none !important;
+          width: 0px !important;
+          height: 0px !important;
+          overflow: hidden !important;
+          hr: hide !important;
+        }
+        div[id=mobile] {
+          display: none !important;
+          width: 100% !important;
+          height: 0px !important;
+          max-height: inherit !important;
+          overflow: visible !important;
+          hr: 200%;
+        }
+        *[class=noMobile] {
+          display: none !important;
+          overflow: hidden !important;
+          height: 0px !important;
+        }
+        *[class=showMobile] {
+          display: block !important;
+          height: auto !important;
+          max-height: inherit !important;
+          overflow: visible !important;
+          align-content: center !important;
+        }
+      }
